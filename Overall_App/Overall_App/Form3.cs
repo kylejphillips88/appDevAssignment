@@ -49,7 +49,7 @@ namespace Overall_App
             InitializeComponent();
             try
             {
-                String ConnStr2 = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kyle Phillips\OneDrive - Wintec\COMP_609_App_Dev\App_Project\Data_Retrieval\FarmInfomation.accdb";//File location
+                String ConnStr2 = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\Completed Modules\COMP_609_App_Dev\Projects\Overall_App\FarmInfomation.accdb";//File location
                 String[] tables = new string[] { "goats", "sheep", "cows", "dogs", "commodity_prices" };// each table name
                 foreach (string type in tables)
                 {
@@ -226,7 +226,7 @@ namespace Overall_App
                         }
                     }
                 }
-                System.IO.File.WriteAllLines(@"C:\Users\Kyle Phillips\OneDrive - Wintec\COMP_609_App_Dev\Projects\Overall_App\Animal_Profit_Order.txt", stringProfit);
+                System.IO.File.WriteAllLines(@"E:\Completed Modules\COMP_609_App_Dev\Projects\Overall_App\Animal_Profit_Order.txt", stringProfit);
                 label7.Text = "File Successfully Created";
                 
             }

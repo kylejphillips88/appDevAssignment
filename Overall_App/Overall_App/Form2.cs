@@ -16,7 +16,7 @@ namespace Overall_App
         public Form2()
         {
             InitializeComponent();
-            String ConnStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Kyle Phillips\OneDrive - Wintec\COMP_609_App_Dev\App_Project\Data_Retrieval\FarmInfomation.accdb";//File location
+            String ConnStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\Completed Modules\COMP_609_App_Dev\Projects\Overall_App\FarmInfomation.accdb";//File location
             String tableName1 = "Select * FROM goats;";//enter table name, SELECT * FROM ; is added automatically
             String tableName2 = "Select * FROM sheep;";
             String tableName3 = "Select * FROM cows;";
